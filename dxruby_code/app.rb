@@ -29,6 +29,7 @@ class Toufu < Sprite
 end
 
 s = Array.new(10) { Toufu.new }
+puts "’Ç‰Á"
 
 Window.loop do
   Sprite.update(s)
